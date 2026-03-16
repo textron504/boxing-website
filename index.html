@@ -35,7 +35,8 @@
         <li>If the fighter cannot rise before 10, the opponent wins by <b>KO</b>.</li>
         <li>If the fight goes all rounds, three judges decide the winner on points.</li>
         <li>A match can end by <b>knockout (KO)</b>, <b>technical knockout (TKO)</b>, <b>judge's decision</b>, or
-            <b>disqualification</b>.</li>
+            <b>disqualification</b>.
+        </li>
     </ol>
     <hr>
     <h2>Weight Divisions</h2>
@@ -81,7 +82,7 @@
                 <td>Over 200lbs</td>
             </tr>
         </tbody>
-        
+
     </table>
     <hr>
     <h2>Basic Punches in Boxing</h2>
@@ -94,7 +95,8 @@
     <hr>
     <h2>Greatest Boxers of All Time</h2>
     <ul>
-        <li>&#129351<b>Muhammad Ali</b> &#8211 "The Greatest" Three-time heavyweight champion, known for speed skill, and chrisma.</li>
+        <li>&#129351<b>Muhammad Ali</b> &#8211 "The Greatest" Three-time heavyweight champion, known for speed skill,
+            and chrisma.</li>
         <li>&#129351<b>Sugar Ray Robinson</b> &#8211 Widely considered the best pound for pound boxer of all time.</li>
         <li>&#129351<b>Mike Tyson</b> &#8211 Youngest heavyweight champion in history at age 20.</li>
         <li>&#129351<b>Manny Pacquiao</b> &#8211 Only boxer to win world titles in 8 different weight divisions.</li>
@@ -120,9 +122,10 @@
         <li>Develops <b>coordination</b> and reflexes</li>
         <li>Boosts <b>confidence</b> and mental toughness</li>
         <li>Excellent <b>stress relief</b></li>
-        <li>Burns a high numnber of <b>calories</b></li>
+        <li>Burns a high number of <b>calories</b></li>
     </ul>
     <hr>
+    <!-- Links -->
     <h2>Learn More</h2>
     <ul>
         <li><a href="https://en.wikipedia.org/wiki/Boxing" target="_blank"><u>Wikipedia &#8211 Boxing</u></a></li>
@@ -130,9 +133,93 @@
         <li><a href="https://www.boxing.org/" target="_blank"><u>Boxing Organization &#8211 Boxing News</u></a></li>
     </ul>
     <hr>
-    <p>
-        <small>Website built with plain HTML only. &#129354</small>      
-    </p>
+    <!-- Form -->
+    <h2>&#129354 Join the Boxing Community</h2>
+    <p>Sign up to get boxing news, tips, and updates.</p>
+    <form>
+        <div>
+            <label for="full-name">Full Name:</label><br>
+            <input type="text" id="full-name" name="full-name" placeholder="e.g. Manny Pacquiao">
+        </div>
+        <br>
+        <div>
+            <label for="email-address">Email Address:</label><br>
+            <input type="email" id="email-address" name="email-address" placeholder="e.g yourname@email.com">
+        </div>
+        <br>
+        <div>
+            <label for="age">Your Age:</label><br>
+            <input type="number" id="age" name="age" placeholder="e.g 25">
+        </div>
+        <br>
+        <div>
+            <label for="level">Boxing Experience Level(1 = Beginner, 10 = Pro)</label><br>
+            <input type="range" id="level" name="level" min="1" max="10">
+        </div>
+        <br>
+        <div>
+            <label for="weights">Favorite Weight Division:</label><br>
+            <input list="weight" id="weights" placeholder="Start typing a division...">
+            <datalist id="weight">
+                <option value="Strawweight"></option>
+                <option value="Flyweight"></option>
+                <option value="Featherweight"></option>
+                <option value="Lightweight"></option>
+                <option value="Welterweight"></option>
+                <option value="Middleweight"></option>
+                <option value="Light Heavyweight"></option>
+                <option value="Heavyweight"></option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option>-- Select your country --</option>
+                <option value="united-states">United States</option>
+                <option value="phillipines">Phillipines</option>
+                <option value="mexico">Mexico</option>
+                <option value="united-kingdom">United Kingdom</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Are you currently training in boxing?</label><br>
+            <input type="radio" name="yes" id="yes" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="no" id="no" value="No">
+            <label for="no">No</label>
+        </div>
+        <br>
+        <div>
+            <label>What topics interest you? (check all that apply)</label><br>
+            <input type="checkbox" id="option-1" name="option-1" value="Boxing News">
+            <label for="option-1">Boxing News</label><br>
+            <input type="checkbox" id="option-2" name="option-2" value="Training Tips">
+            <label for="option-2">Training Tips</label><br>
+            <input type="checkbox" id="option-3" name="option-3" value="Boxing History">
+            <label for="option-3">Boxing History</label><br>
+            <input type="checkbox" id="option-4" name="option-4" value="Fight Results">
+            <label for="option-4">Fight Results</label>
+        </div>
+        <br>
+        <div>
+            <label for="message">Your Message (optional):</label><br>
+            <textarea name="message" id="message" rows="4" cols="40" placeholder="Write something..."></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" id="submit" value="Sign Me Up &#129354">
+            <input type="reset" value="Clear Form">
+        </div>
+        <br>
+    </form>
+    <hr>
+    <div>
+        <small>Website built with plain HTML only. &#129354</small>
+    </div>
+
 </body>
 
 </html>
